@@ -1,13 +1,13 @@
 
 -----
 
-# 🏢 Elevators\_Demo: Simulating Request Management with the Elevator Algorithm
+# 🏢 Elevators Demo: Simulating Request Management with the Elevator Algorithm
 
 -----
 
 ## 🚀 Project Overview
 
-Welcome to **Elevators\_Demo**, an interactive web-based simulation that visually demonstrates the **Elevator Algorithm (SCAN)** in action. While this project simulates the movement of elevators in a building, the underlying principles are far-reaching, applicable to diverse queuing and resource management challenges in computer science and real-world scenarios.
+Welcome to **Elevators Demo**, an interactive web-based simulation that visually demonstrates the **Elevator Algorithm (SCAN)** in action. While this project simulates the movement of elevators in a building, the underlying principles are far-reaching, applicable to diverse queuing and resource management challenges in computer science and real-world scenarios.
 
 This demo allows you to:
 
@@ -81,6 +81,10 @@ The JavaScript implementation includes:
 2.  **Open `index.html`:** Simply open the `html/index.html` file in your preferred web browser.
 
 -----
+# ⁉️​ Improvements Pending: 
+
+- Better UI (translated to English or multilingual)
+- Visible waiting queue per elevator
 
 ## 🤝 Contribution
 
