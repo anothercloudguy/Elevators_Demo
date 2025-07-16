@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ascensores</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-panel">
+            <div class="controls-container">
+                <h1>Simulador de Ascensores</h1>
+                <div class="settings">
+                    <label for="elevator-count">Ascensores (1-3):</label>
+                    <input type="number" id="elevator-count" min="1" max="3" value="2">
+                    <label for="floor-count">Pisos (1-20):</label>
+                    <input type="number" id="floor-count" min="1" max="20" value="10">
+                    <button id="start-simulation">Iniciar/Reiniciar</button>
+                </div>
+            </div>
+            <div id="all-internal-panels-container" class="all-internal-panels-container">
+                <!-- Paneles internos de cada ascensor se generarán aquí -->
+            </div>
+        </div>
+        <div id="building" class="building right-panel">
+            <!-- Los pisos y ascensores se generarán aquí -->
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
